@@ -3,11 +3,11 @@
 }
 
 body  {
-    background-image: url(../desafio-04-juan-ignacio-ferrandi/img/papel_01.png);
+    background-image: url(../desafio-05-juan-ignacio-ferrandi/img/papel_01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: rgba(5, 7, 12, 0.70), url(../desafio-02-juan-ignacio-ferrandi/img/papel_01.png) no-repeat center center fixed;
+    background: rgba(5, 7, 12, 0.70), url(../desafio-05-juan-ignacio-ferrandi/img/papel_01.png) no-repeat center center fixed;
     font-family: "sounce sans pro";
     color: aliceblue;
     margin: 0;
@@ -20,7 +20,7 @@ header  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../desafio-04-juan-ignacio-ferrandi/img/123.jpg);
+    background-image: url(../desafio-05-juan-ignacio-ferrandi/img/123.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -63,7 +63,7 @@ ul {
 
 footer  {
     background-color:red ;
-    background-image: url(../desafio-04-juan-ignacio-ferrandi/img/123.jpg);
+    background-image: url(../desafio-05-juan-ignacio-ferrandi/img/123.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
