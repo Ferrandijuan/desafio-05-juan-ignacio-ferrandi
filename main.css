@@ -3,19 +3,11 @@
 }
 
 body  {
-<<<<<<< HEAD
     background-image: url(../desafio-06-juan-ignacio-ferrandi/img/papel_01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background: rgba(5, 7, 12, 0.70), url(../desafio-06-juan-ignacio-ferrandi/img/papel_01.png) no-repeat center center fixed;
-=======
-    background-image: url(../desafio-06-juan-ignacio-ferrandi/img/papel_01.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background: rgba(5, 7, 12, 0.70), url(../desafio-06-juan-ignacio-ferrandi/img/papel_01.png) no-repeat center center fixed;
->>>>>>> rama-secundaria
     font-family: "sounce sans pro";
     color: aliceblue;
     margin: 0;
@@ -27,11 +19,7 @@ body  {
 header  {
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     background-image: url(../desafio-06-juan-ignacio-ferrandi/img/123.jpg);
-=======
-    background-image: url(../desafio-06-juan-ignacio-ferrandi/img/123.jpg);
->>>>>>> rama-secundaria
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -73,11 +61,7 @@ ul {
 
 footer  {
     background-color:red ;
-<<<<<<< HEAD
     background-image: url(../desafio-06-juan-ignacio-ferrandi/img/123.jpg);
-=======
-    background-image: url(../desafio-06-juan-ignacio-ferrandi/img/123.jpg);
->>>>>>> rama-secundaria
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,6 +71,7 @@ footer  {
     width: 100%;
     margin-top: 80px;
     grid-area: footer;
+
 }
 
 h1  {
