@@ -350,3 +350,18 @@ td, th {
     font-size: 26px;
     transition-duration: 0.4s;
     opacity: 100%; } }
+
+.red-instagram {
+  border: #c000f6 2px solid;
+  opacity: 100%;
+  padding: 0px; }
+
+.red-tiktok {
+  border: #00FFFF 2px solid;
+  opacity: 100%;
+  padding: 0px; }
+
+.red-youtube {
+  border: #da2836 2px solid;
+  opacity: 100%;
+  padding: 0px; }

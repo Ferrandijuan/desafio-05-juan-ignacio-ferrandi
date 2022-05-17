@@ -80,8 +80,7 @@ h1  {
 }
 
 h2  {
-    font-size: 25px;
-    padding: 20px;
+    @include size;
 }
 
 .grids  {
@@ -258,10 +257,14 @@ tr  {
     background-color: rgb(85, 60, 197);
 }
 
-td, th  {
+th  {
     font-size: 12px;
 }
 
+td  {
+    @extend .th;
+    font-weight: bold;
+}
 
 
 .titulo-1  {

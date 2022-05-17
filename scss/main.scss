@@ -1,2 +1,33 @@
 @import "variable";
 @import "estructura";
+
+
+
+
+// Maps
+$redes: (
+    instagram: #c000f6,
+    tiktok: #00FFFF,
+    youtube: #da2836,
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        border: $color 2px solid;
+        opacity: 100%;
+        padding: 0px;
+        
+    }
+
+}
+
+
+// Mixins
+
+@mixin size {
+    height: 20px;
+    width: 20px;
+    
+}
+
+
