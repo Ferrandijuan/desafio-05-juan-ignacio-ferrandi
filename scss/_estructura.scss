@@ -58,6 +58,7 @@ ul {
     list-style: none;
 }
 
+
 footer  {
     background-color:#ff0000 ;
     background-image: url(../img/123.jpg);
@@ -79,9 +80,6 @@ h1  {
     margin: 0px;
 }
 
-h2  {
-    @include size;
-}
 
 .grids  {
     display: grid;
@@ -138,6 +136,15 @@ iframe {
     padding-top: 15px;
 }
 
+.carrusel  {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-carousel  {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 nav  {
     grid-area: nav;
 }
@@ -179,6 +186,7 @@ thead   {
     margin-top: 100px;
 }
 
+
 .reporte-info  {
     display: flex;
     flex-direction: column;   
@@ -186,8 +194,7 @@ thead   {
 }
 
 .reporte {
-    display: flex;
-    flex-direction: column;
+    @extend .reporte-info;
     margin-top: 70px;
     margin-bottom: 8px;
     background-color: #834141;
@@ -212,6 +219,7 @@ textarea {
 }
 
 h2, h3  {
+    font-family: 'Noto Sans', sans-serif;
     padding-top: 18px
 }
 
@@ -259,11 +267,6 @@ tr  {
 
 th  {
     font-size: 12px;
-}
-
-td  {
-    @extend .th;
-    font-weight: bold;
 }
 
 
@@ -361,11 +364,7 @@ td  {
         margin: 5px 65px;
         font-size: 18px;
     }
-        &:hover {
-            font-size: 20px;
-            transition-duration: 0.4s;
-            opacity: 100%;
-        }
+ 
     }
     
     .grid  {

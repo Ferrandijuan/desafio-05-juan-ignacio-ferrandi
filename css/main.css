@@ -66,10 +66,6 @@ h1 {
   font-size: 30px;
   margin: 0px; }
 
-h2 {
-  font-size: 25px;
-  padding: 20px; }
-
 .grids {
   display: grid;
   grid-template-columns: 100%;
@@ -111,6 +107,13 @@ iframe {
 .art-03 {
   padding-top: 15px; }
 
+.carrusel {
+  justify-content: center;
+  align-items: center; }
+
+.text-carousel {
+  font-family: 'Noto Sans', sans-serif; }
+
 nav {
   grid-area: nav; }
 
@@ -145,13 +148,11 @@ thead {
 .footer-ranking {
   margin-top: 100px; }
 
-.reporte-info {
+.reporte-info, .reporte {
   display: flex;
   flex-direction: column; }
 
 .reporte {
-  display: flex;
-  flex-direction: column;
   margin-top: 70px;
   margin-bottom: 8px;
   background-color: #834141;
@@ -172,6 +173,7 @@ textarea {
   font-size: 15px; }
 
 h2, h3 {
+  font-family: 'Noto Sans', sans-serif;
   padding-top: 18px; }
 
 h4 {
@@ -206,7 +208,7 @@ tr:hover {
 .tr-chile:hover {
   background-color: #553cc5; }
 
-td, th {
+th {
   font-size: 12px; }
 
 .titulo-1 {
@@ -269,11 +271,7 @@ td, th {
 @media screen and (min-width: 768px) and (min-width: 1024px) {
   .li-header {
     margin: 5px 65px;
-    font-size: 18px; }
-  :hover {
-    font-size: 20px;
-    transition-duration: 0.4s;
-    opacity: 100%; } }
+    font-size: 18px; } }
 
 @media screen and (min-width: 768px) {
   .grid {
@@ -352,16 +350,19 @@ td, th {
     opacity: 100%; } }
 
 .red-instagram {
-  border: #c000f6 2px solid;
+  border: #c000f6 2px outset;
   opacity: 100%;
   padding: 0px; }
 
 .red-tiktok {
-  border: #00FFFF 2px solid;
+  border: #00FFFF 2px outset;
   opacity: 100%;
   padding: 0px; }
 
 .red-youtube {
-  border: #da2836 2px solid;
+  border: #da2836 2px outset;
   opacity: 100%;
   padding: 0px; }
+
+h2 {
+  height: 90px; }
