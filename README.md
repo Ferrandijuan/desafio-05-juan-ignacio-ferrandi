@@ -11,5 +11,5 @@
     - Se aplico un mixin en h2.
 
 {_estructura.scss
-    - se aplico un extend en td.
-    - Se aplico un mixin en h2.
+    - se aplico un extend en .reporte.
+    
